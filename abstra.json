@@ -1,0 +1,55 @@
+{
+  "workspace": {
+    "id": null,
+    "name": "Untitled Workspace",
+    "theme": null,
+    "logo_url": null,
+    "brand_name": "Sweet Pot",
+    "main_color": "#98074D",
+    "font_color": null,
+    "font_family": null,
+    "sidebar": [
+      {
+        "id": "a8025fe4-7990-410c-ab4f-4a0d746c4c6a",
+        "name": "Testing",
+        "path": "testing",
+        "type": "form",
+        "visible": true
+      }
+    ]
+  },
+  "visualization": [],
+  "jobs": [],
+  "hooks": [],
+  "forms": [
+    {
+      "id": "a8025fe4-7990-410c-ab4f-4a0d746c4c6a",
+      "path": "testing",
+      "title": "Testing",
+      "is_initial": true,
+      "auto_start": false,
+      "allow_restart": false,
+      "end_message": null,
+      "start_message": null,
+      "error_message": null,
+      "welcome_title": null,
+      "timeout_message": null,
+      "start_button_text": null,
+      "restart_button_text": null,
+      "file": "testing.py",
+      "workflow_position": [
+        0.0,
+        0.0
+      ],
+      "transitions": [],
+      "notification_trigger": {
+        "variable_name": "assignee_emails",
+        "enabled": false
+      }
+    }
+  ],
+  "scripts": [],
+  "iterators": [],
+  "conditions": [],
+  "version": "4.0"
+}
